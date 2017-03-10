@@ -1,0 +1,94 @@
+{
+  "name": "IT & Mobile Security",
+  "location": "FH JOANNEUM Kapfenberg",
+  "courses": {
+    "1st Term": [
+      {
+        "name": "Cryptography",
+        "ects": 8,
+        "sws": 6,
+        "lecturers": [
+          {
+            "name": "Wilhelm Zugaj"
+          },
+          {
+            "name": "Martin Suda"
+          },
+          {
+            "name": "Christian Kollmitzer"
+          }
+        ]
+      },
+      {
+        "name": "Software Security",
+        "ects": 6,
+        "sws": 4,
+        "lecturers": [
+          {
+            "name": "Egon Teiniker"
+          }
+        ]
+      },
+      {
+        "name": "Secure Mobile Software Development",
+        "ects": 7,
+        "sws": 5,
+        "lecturers": [
+          {
+            "name": "Elmar Krainz"
+          },
+          {
+            "name": "Gerhard Seuchter"
+          }
+        ]
+      },
+      {
+        "name": "Basic Network Security",
+        "ects": 5,
+        "sws": 4,
+        "lecturers": [
+          {
+            "name": "Klaus Gebeshuber"
+          },
+          {
+            "name": "Georg Mittenecker"
+          }
+        ]
+      }
+    ],
+    "2nd Term": [
+      {
+        "name": "Cross-Platform Development",
+        "ects": 6,
+        "sws": 5,
+        "lecturers": [
+          {
+            "name": "Johannes Feiner"
+          },
+          {
+            "name": "Elmar Krainz"
+          },
+          {
+            "name": "Franz Niederl"
+          }
+        ]
+      },
+      {
+        "name": "Cloud Computing",
+        "ects": 6,
+        "sws": 4,
+        "lecturers": [
+          {
+            "name": "Manfred Pamsl"
+          },
+          {
+            "name": "Gerhard Seuchter"
+          },
+          {
+            "name": "Wilhelm Zugaj"
+          }
+        ]
+      }
+    ]
+  }
+}

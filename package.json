@@ -1,0 +1,35 @@
+{
+  "name": "crpladev-api-server",
+  "version": "1.0.0",
+  "description": "Simple demo API server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MICSTI/crpladev-api-server.git"
+  },
+  "keywords": [
+    "node.js",
+    "API",
+    "JavaScript"
+  ],
+  "author": "Michael Stifter",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/MICSTI/crpladev-api-server/issues"
+  },
+  "homepage": "https://github.com/MICSTI/crpladev-api-server#readme",
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "express": "4.15.2",
+    "jwt-simple": "0.5.1",
+    "request": "2.79.0",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.11.0"
+  }
+}

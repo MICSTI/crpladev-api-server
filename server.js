@@ -28,6 +28,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/api/ims', require('./controllers/api-ims'));
 app.use('/api/joke', require('./controllers/api-random-joke'));
 
+// index route
+app.get('/', function(req, res) {
+    res.status(200).send("Hi there!");
+});
+
 // 404
 app.get("*", function(req, res) {
     res.status(404).send("This is not an allowed URL");

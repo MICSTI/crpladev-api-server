@@ -4,6 +4,7 @@
 var router = require('express').Router();
 var fs = require('fs');
 var path = require('path');
+var logger = require('winston');
 
 /**
  * Reads the IMS data file and returns the content.
@@ -14,7 +15,13 @@ router.get('/', function(req, res, next) {
             return next(err);
         }
 
-        res.status(200).send(data);
+        try {
+            data = JSON.parse(data);
+        } catch (e) {
+            logger.warn('Could not parse file data', e);
+        }
+
+        res.status(200).json(data);
     });
 });
 
